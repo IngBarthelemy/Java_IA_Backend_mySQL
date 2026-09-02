@@ -1,4 +1,4 @@
-package com.devSenior.campusFlow;
+package com.devsenior.campusflow;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

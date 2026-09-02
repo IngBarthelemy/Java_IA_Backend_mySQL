@@ -1,4 +1,4 @@
-package com.devSenior.campusFlow;
+package com.devsenior.campusflow;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

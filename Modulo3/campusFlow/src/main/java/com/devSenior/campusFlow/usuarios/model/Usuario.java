@@ -1,4 +1,4 @@
-package com.devSenior.campusFlow;
+package com.devsenior.campusflow.usuarios.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
