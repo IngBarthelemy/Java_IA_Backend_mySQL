@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:8080/api/productos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Teclado mecanico\",\r
+
+    \  \"descripcion\": \"Switch azul\",\r
+
+    \  \"precio\": 120000,\r
+
+    \  \"stock\": 15,\r
+
+    \  \"categoria\": { \"id\": 1 },\r
+
+    \  \"marca\": { \"id\": 1 }\r
+
+    }"
+order: 4445431714709715

@@ -1,0 +1,12 @@
+$kind: http-request
+name: Crear categoria
+url: http://localhost:8080/api/categorias/crear
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Perifericos\"\r
+
+    }"
+order: 1787320375098

@@ -1,0 +1,5 @@
+$kind: http-request
+name: Traer categoria
+url: http://localhost:8080/api/categorias
+method: GET
+order: 3501834363163995

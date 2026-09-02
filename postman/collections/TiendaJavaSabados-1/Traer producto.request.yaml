@@ -1,0 +1,5 @@
+$kind: http-request
+name: Traer producto
+url: http://localhost:8080/api/productos
+method: GET
+order: 4501651297410272
