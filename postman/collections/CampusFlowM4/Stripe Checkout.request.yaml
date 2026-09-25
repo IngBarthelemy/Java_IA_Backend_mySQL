@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8080/api/pagos/checkout/pago-unico
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"url\": \"https://checkout.stripe.com/c/pay/cs_test_a1...\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_11x8}}"
+order: 3681957740274856

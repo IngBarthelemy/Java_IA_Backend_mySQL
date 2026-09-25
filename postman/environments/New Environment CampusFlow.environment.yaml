@@ -1,0 +1,4 @@
+name: New Environment CampusFlow
+values:
+  - key: stripe.price-pago-unico stripe price-plan-individual stripe.webhook-secret stripe.webhook-secret
+    value: ''

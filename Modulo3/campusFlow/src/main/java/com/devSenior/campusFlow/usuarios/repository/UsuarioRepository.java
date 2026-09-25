@@ -1,7 +1,10 @@
-package com.devsenior.campusflow.usuarios.repository;
+package com.devSenior.campusFlow.usuarios.repository;
 
-import com.devsenior.campusflow.usuarios.model.Usuario;
+import java.util.Optional;
+import com.devSenior.campusFlow.usuarios.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+
+    Optional<Usuario> findByEmail(String email);
 }
