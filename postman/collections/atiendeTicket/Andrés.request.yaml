@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:8080/api/tickets
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"clienteNombre\": \"Pedro\",\r
+
+    \  \"clienteContacto\": \"p@x.com\",\r
+
+    \  \"canal\": \"CHAT_WEB\",\r
+
+    \  \"mensaje\": \"URGENTE!!\",\r
+
+    \  \"estado\": \"CERRADO\",\r
+
+    \  \"prioridad\": \"URGENTE\"\r
+
+    }"
+order: 3773675179614092

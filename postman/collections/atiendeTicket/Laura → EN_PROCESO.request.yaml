@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8080/api/tickets
+method: PATCH
+body:
+  type: json
+  content: '{"codigo":409,"error":"Conflict","mensaje":"No se puede pasar un ticket de ABIERTO a RESUELTO","fecha":"2026-09-26T10:51:59.037428827"}'
+order: 4304520822651542

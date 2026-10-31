@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8080/api/tickets
+method: POST
+body:
+  type: json
+  content: '{"codigo":404,"error":"Not Found","mensaje":"No existe el ticket con id 99","fecha":"2026-09-26T10:51:58.984050098"}'
+order: 3829280144409043

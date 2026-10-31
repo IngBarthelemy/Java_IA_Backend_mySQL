@@ -1,0 +1,26 @@
+$kind: http-request
+name: New Request
+url: http://localhost:11434/v1/chat/completions
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"model\": \"qwen3:1.7b\",\r
+
+    \  \"max_tokens\": 1024,\r
+
+    \  \"temperature\": 0,\r
+
+    \  \"thinking\": { \"type\": \"disabled\" },\r
+
+    \  \"system\": \"Clasifica el sentimiento. Responde SOLO con una palabra: MOLESTO, NEUTRAL o CONTENTO.\",\r
+
+    \  \"messages\": [\r
+
+    \    { \"role\": \"user\", \"content\": \"Pedí el pedido 1045 hace 8 días y no llega\" }\r
+
+    \  ]\r
+
+    }"
+order: 4448909134695364

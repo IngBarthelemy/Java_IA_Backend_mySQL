@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:8080/api/tickets
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"clienteNombre\": \"Laura Gómez\",\r
+
+    \  \"clienteContacto\": \"+57 300 123 4567\",\r
+
+    \  \"canal\": \"WHATSAPP\",\r
+
+    \  \"mensaje\": \"Pedí el pedido 1045 hace 8 días y no llega, es un regalo para el sábado\"\r
+
+    }"
+order: 1791385969133

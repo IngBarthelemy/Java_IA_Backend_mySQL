@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8080/api/tickets
+method: POST
+body:
+  type: json
+  content: '{"codigo":400,"error":"Bad Request","mensaje":"mensaje: El mensaje es obligatorio","fecha":"2026-09-26T10:51:58.887244476"}'
+order: 3817048253785577

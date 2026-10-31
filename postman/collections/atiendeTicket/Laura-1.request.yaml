@@ -1,0 +1,5 @@
+$kind: http-request
+name: Laura
+url: http://localhost:8080/api/tickets
+method: GET
+order: 4466102086716141

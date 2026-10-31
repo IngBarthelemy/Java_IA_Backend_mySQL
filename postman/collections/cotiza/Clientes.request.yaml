@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8080/api/clientes
+method: POST
+body:
+  type: json
+  content: '{"nombre":"Luis Herrera","telefono":"3104567890","correo":"luis@correo.co"}'
+order: 1000
